@@ -2,10 +2,10 @@ const express = require('express');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-const FIRST_NAME = 'JOHN';
-const LAST_NAME = 'DOE';
-const AGE = 20;
-const SCHOOL_EMAIL = 'johndoe@school.edu';
+const FIRST_NAME = 'JUSTIN';
+const LAST_NAME = 'COMENDADOR';
+const AGE = 21;
+const SCHOOL_EMAIL = 'just.comendador.swu@phinmaed.com';
 
 app.get('/firstname', (req, res) => {
     res.send(FIRST_NAME);
